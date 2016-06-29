@@ -1,0 +1,29 @@
+<meta charset="utf-8"/>
+
+<script type="text/javascript">
+var wsServer = 'ws://localhost:9001';
+var websocket = new WebSocket(wsServer);
+websocket.onopen = function (evt) {
+    document.getElementById("show").innerHTML+="Connected to WebSocket server.<br>";
+};
+
+websocket.onclose = function (evt) {
+    document.getElementById("show").innerHTML+="Disconnected<br>";
+};
+
+websocket.onmessage = function (evt) {
+    //console.log('Retrieved data from server: ' + evt.data);
+	document.getElementById("show").innerHTML+=('Retrieved data from server: <font color=red>' + evt.data+'</font><br>');
+    //websocket.send(evt.data);
+};
+
+websocket.onerror = function (evt, e) {
+    console.log('Error occured: ' + evt.data);
+	document.getElementById("show").innerHTML+=('Error occured: ' + evt.data+'<br>');
+};
+function send () {
+	websocket.send(document.getElementById("text").value);
+}
+</script>
+<input type="text" id="text" style="width:100%" value='{"command":"poker_sit","params":{"a":"b"}}'><br><button onclick="send()">发送到服务器</button> 
+<div id='show'></div>

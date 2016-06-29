@@ -1,0 +1,59 @@
+vvvvvv
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}
+2016-06-22 13:44:12       INSERT INTO api_log (userid, data, api_time) VALUES('0', '{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}', '2016-06-22 13:44:12')
+2016-06-22 13:46:04       INSERT INTO api_log (user_id, data, api_time) VALUES('0', '{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}', '2016-06-22 13:46:04')
+2016-06-22 13:46:50       INSERT INTO api_log (user_id, data, api_time) VALUES('0', '{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}', '2016-06-22 13:46:50')
+2016-06-22 13:50:17       INSERT INTO api_log (user_id, data, api_time) VALUES('0', '{"timestamp":"1","hash":"2","command":"poker-sit","params":{"a":"b"}}', '2016-06-22 13:50:17')
+error !!!!2016-06-22 13:50:33       INSERT INTO api_log (user_id, data, api_time) VALUES('0', '{"timestamp":"1","hash":"2","command":"poker-sit","params":{"'a":"'b"}}', '2016-06-22 13:50:33')
+error !!!!2016-06-23 15:57:30       SELECT * FROM sms_code  mobile='13731283296' and create_time>'2016-06-23 15:56:30' order by id desc
+error !!!!2016-06-23 15:58:35       SELECT * FROM sms_code  mobile='13731283296' and create_time>'2016-06-23 15:57:35' order by id desc
+error !!!!2016-06-23 16:21:17       SELECT * FROM sms_code  mobile='13731283296' and create_time>'2016-06-23 16:20:17' order by id desc
+error !!!!2016-06-23 16:22:20       SELECT * FROM sms_code  mobile='13731283296' and create_time>'2016-06-23 16:21:20' order by id desc
+error !!!!2016-06-23 16:22:20       INSERT INTO sms_code tradeType,mobile,verifycode,create_time,ExpireTime VALUES1,'13731283296',565788,'2016-06-23 16:22:20','2016-06-23 16:27:20'
+error !!!!2016-06-24 14:07:04       SELECT * FROM sms_code where  mobile='13343068009' and ExpireTime>'2016-06-24 14:07:04' and statue = 0 order by id desc limit 1
+error !!!!2016-06-24 14:08:14       SELECT * FROM sms_code where  mobile='13343068009' and ExpireTime>'2016-06-24 14:08:14' and statue = 0 order by id desc limit 1
+error !!!!2016-06-24 14:13:12       SELECT * FROM sms_code where  mobile='13343068009' and ExpireTime>'2016-06-24 14:13:12' and statue = 0 order by id desc limit 1
+error !!!!2016-06-24 14:14:41       SELECT * FROM sms_code where  mobile='13343068009' and ExpireTime>'2016-06-24 14:14:41' and statue = 0 order by id desc limit 1
+error !!!!2016-06-24 14:16:20       SELECT * FROM sms_code where  mobile='13343068009' and ExpireTime>'2016-06-24 14:16:20' and statue = 0 order by id desc limit 1
+error !!!!2016-06-24 14:17:21       SELECT * FROM sms_code where  mobile='13343068009' and ExpireTime>'2016-06-24 14:17:21' and statue = 0 order by id desc limit 1
+error !!!!2016-06-24 14:18:16       SELECT * FROM sms_code where  mobile='13343068009' and ExpireTime>'2016-06-24 14:18:16' and statue = 0 order by id desc limit 1
+error !!!!2016-06-24 14:18:49       SELECT * FROM sms_code where  mobile='13343068009' and ExpireTime>'2016-06-24 14:18:49' and statue = 0 order by id desc limit 1
+error !!!!2016-06-24 14:18:58       SELECT * FROM sms_code where  mobile='13343068009' and ExpireTime>'2016-06-24 14:18:58' and statue = 0 order by id desc limit 1
+error !!!!2016-06-24 14:23:44       INSERT INTO user (phone,salt,create_time) VALUES ('13343068009','','1466749424')
+error !!!!2016-06-24 14:26:09       INSERT INTO user (phone,salt,create_time) VALUES ('13343068009','1502','1466749569')
+error !!!!2016-06-24 14:26:19       INSERT INTO user (phone,salt,create_time) VALUES ('13343068009','2585','1466749579')
+error !!!!2016-06-24 14:33:06       INSERT INTO user (phone,salt,create_time) VALUES ('13343068009','7581','1466749986')
+error !!!!2016-06-24 14:34:18       INSERT INTO user (phone,salt,create_time) VALUES ('13343068009','1361','1466750058')
+error !!!!2016-06-24 14:35:53       INSERT INTO user (phone,salt,create_time) VALUES ('13343068009','2508','1466750153')
+error !!!!2016-06-24 14:41:19       INSERT INTO userinfo (uid,username,show_pic) VALUES ('1','神秘人','default/url/1.jpg')
+error !!!!2016-06-24 14:46:04       INSERT INTO userinfo (uid,username,show_pic) VALUES ('1','神秘人','default/url/1.jpg')
+error !!!!2016-06-24 14:47:48       INSERT INTO userinfo (uid,username,show_pic) VALUES ('1','神秘人','default/url/1.jpg')
+//////////////////////////
+error !!!!2016-06-24 14:49:18       INSERT INTO userinfo (uid,username,show_pic) VALUES ('1','神秘人','default/url/1.jpg')
+error !!!!2016-06-24 14:50:03       INSERT INTO userinfo (uid,username,show_pic) VALUES ('1','神秘人','default/url/1.jpg')
+error !!!!2016-06-24 14:54:35       UPDATE sms_code SET status = '1' where phone='13731283296' and ExpireTime>'2016-06-24 14:54:35'
+error !!!!2016-06-24 14:55:26       UPDATE sms_code SET status = '1' where phone='13731283296' and ExpireTime>'2016-06-24 14:55:26'
+error !!!!2016-06-24 14:55:28       UPDATE sms_code SET status = '1' where phone='13731283296' and ExpireTime>'2016-06-24 14:55:28'
+error !!!!2016-06-24 14:57:30       select a.*,b.* from user as a 
+							left join userinfo as b on a.id = b.uid 
+							where a.openid='13731283296' 
+error !!!!2016-06-24 14:57:30       INSERT INTO user (openid,salt,create_time) VALUES ('13731283296','','1466751450')
+error !!!!2016-06-24 14:57:34       select a.*,b.* from user as a 
+							left join userinfo as b on a.id = b.uid 
+							where a.openid='13731283296' 
+error !!!!2016-06-24 14:57:34       INSERT INTO user (openid,salt,create_time) VALUES ('13731283296','','1466751454')
+error !!!!2016-06-27 17:31:55       UPDATE userinfo SET username,gold,diamonds,glamour,max_win,all_win,all_played,bet_time,win_time,showdown_time,sex,show_pic where '神秘人','10000','99940','0','0','0','0','0','0','0','0','default/url/1.jpg'
+error !!!!2016-06-27 17:32:10       UPDATE userinfo SET username,gold,diamonds,glamour,max_win,all_win,all_played,bet_time,win_time,showdown_time,sex,show_pic where '神秘人','20000','99890','0','0','0','0','0','0','0','0','default/url/1.jpg'
+error !!!!2016-06-27 17:46:24       UPDATE userinfo SET username =>'神秘人',gold =>'30000',diamonds =>'99840',glamour =>'0',max_win =>'0',all_played =>'0',bet_time =>'0',win_time =>'0',showdown_time =>'0',sex =>'0',show_pic =>'default/url/1.jpg' where uid = 8
+error !!!!2016-06-28 13:14:50       INSERT INTO api_log (user_id, data, api_time) VALUES ('0', '{"timestamp":"1","hash":"2","command":"poker_sit","params":{"a":"b阿萨德发的'阿萨德发"}}', '2016-06-28 13:14:50')
